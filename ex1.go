@@ -1,10 +1,10 @@
 package main
 
 import (
-  "fmt"
-  "os"
+  "fmt"   //for formatting
+  "os"  //for user entry
 )
-
+// A function to convert number to words and "Not a number" incase of invalid entry
 func num2words(s string) string  {
   var b bool
   var p string
@@ -30,6 +30,7 @@ func num2words(s string) string  {
     return ("Not a number")
   }
 }
+//excetion starts from here
 func main(){
   for i:=1;i<len(os.Args);i++{
     st:=os.Args[i]
