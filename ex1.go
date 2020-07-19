@@ -1,8 +1,8 @@
 package main
 
 import (
-  "fmt"
-  "os"
+  "fmt"   //for formatting
+  "os"  //for user entry
 )
 // A function to convert number to words and "Not a number" incase of invalid entry
 func num2words(s string) string  {
